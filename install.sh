@@ -1,7 +1,13 @@
 #!/bin/sh
 echo "Installing SpeedTest-Wrapper"
 
+echo "Downloading speedtest-cli"
+wget -O speedtest-cli https://raw.github.com/sivel/speedtest-cli/master/speedtest_cli.py
+chmod +x speedtest-cli
+
+
 echo "Copying files..."
+mv speedtest-cli /usr/local/bin/
 mkdir /etc/speedtest
 cp speedtest-wrapper.sh /etc/speedtest/
 

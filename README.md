@@ -8,7 +8,7 @@ I tried to keep things simple... you should be able to acquire these files eithe
 
 ./install.sh
 
-This will put all the files where they need to go.  Remember, this does require [speedtest-cli](https://github.com/sivel/speedtest-cli) and you'll need to go there and follow his install before performing mine.
+This will put all the files where they need to go.  Don't forget Python 2.4-3.4 is required for speedtest-cli.
 
 ## Details
 Essentially what I'm contributing is a simple installer and wrapper scripts to run the speedtest-cli utility once an hour and log the results to /var/log/speedtest.log
