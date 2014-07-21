@@ -6,6 +6,9 @@ This first lead me to [sivel's speedtest-cli](https://github.com/sivel/speedtest
 ## Installation
 I tried to keep things simple... you should be able to acquire these files either via downloading the zip or cloning this repo... but once you have it run the following command:
 
+wget https://github.com/danielheth/speedtest-cli-logging-wrapper/tarball/master
+tar -xpvf master
+cd danielheth*
 ./install.sh
 
 This will put all the files where they need to go.  Don't forget Python 2.4-3.4 is required for speedtest-cli.
