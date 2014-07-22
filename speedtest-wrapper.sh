@@ -4,7 +4,7 @@ timestamp() {
   date +"%s"
 }
 
-timestampFile=./lastrun.timestamp
+timestampFile=/etc/speedtest/lastrun.timestamp
 waitTimeSeconds=3600
 
 
